@@ -7,17 +7,17 @@
     font-weight: bolder;
 }
 
+
 .primary-image {
-    display: flex;
+    width: 95vw;
+    height: auto;
+    margin: 0 1vw;
 }
 
-.primary-image img{
-    flex: 1;
-}
-
-.glowing{
+.glowing {
     animation: glow 3s ease-in-out infinite alternate;
-    margin: 5% 5%;
+    width: 90vw;
+    margin: 0 2.5vw;
 }
 
 @keyframes glow {
