@@ -9,21 +9,20 @@
 
 
 .primary-image {
-    width: 95vw;
+    width: 95dvw;
     height: auto;
-    margin: 0 1vw;
 }
 
 .glowing {
     animation: glow 3s ease-in-out infinite alternate;
-    width: 90vw;
-    margin: 0 2.5vw;
+    width: 90dvw;
+    margin: 0 2.5dvw
 }
 
 @keyframes glow {
     from {
     }
     to {
-        box-shadow: 0px 0px 5vw 5vw rgba(255,234,53,255);
+        box-shadow: 0px 0px 5dvw 5dvw rgba(255,234,53,255);
     }
 }
